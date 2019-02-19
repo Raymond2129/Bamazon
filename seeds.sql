@@ -1,0 +1,10 @@
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Ready Player One', 'books', 14.99, 10);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Armada', 'books', 12.50, 15);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Fishing pole', 'outdoors', 74.99, 7);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Sleeping bag', 'outdoors', 49.99, 10);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Tent', 'outdoors', 99.99, 20);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Paper Towel Holder', 'kitchen and bath', 14.99, 3);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Dish Soap', 'kitchen and bath', 4.99, 100);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('TV', 'electronics', 999.99, 2);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Cell Phone', 'electronics', 649.99, 1000);
+INSERT INTO `products` (`product_name`, `department_name`, `price`, `stock_quantity`) VALUES ('Ready Player One', 'dvd', 24.99, 150);

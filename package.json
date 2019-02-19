@@ -1,0 +1,27 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "# Node.js & MySQL",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raymond2129/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raymond2129/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Raymond2129/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.3.3",
+    "console.table": "^0.10.0",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0",
+    "table": "^5.2.3"
+  }
+}
