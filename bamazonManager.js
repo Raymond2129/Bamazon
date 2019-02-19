@@ -132,28 +132,29 @@ function addToInventory(prodObj, prodId, prodQty) {
 function addProduct(params) {
   inquirer.prompt([
     {
-      message: "What is the name of this product?",
+      message: "What is the name of this product?".green,
       type: "input",
       name: "prodName"
     },
     {
-      message: "What department does this product belong to?",
+      message: "What department does this product belong to?".green,
       type: "input",
       name: "prodDept"
     },
     {
-      message: "What is the price of this product?",
+      message: "What is the price of this product?".green,
       type: "input",
       name: "prodPrice"
     },
     {
-      message: "how much of this item do you have to add to stock?",
+      message: "how much of this item do you have to add to stock?".green,
       type: "input",
       name: "prodQty"
     }
   ]).then(function (ans) {
     var query = "Insert Into products (product_name, department_name, price, stock_quantity) VAlUES (?, ?, ?, ?)";
-    console.log(ans)
+    console.log(ans);
+    //console.log("You have added" + ans.prodName + " to " + ans.prodDept + " for " + ans.prodPrice + "." + prodQty + " have been added to the inventory!");
     if (ans.prodName !== '' && ans.prodDept !== '' && ans.prodPrice !== '' && ans.prodQty !== ''){
       connection.query(query, [ans.prodName, ans.prodDept, ans.prodPrice, ans.prodQty], function (error, res) {
       })
